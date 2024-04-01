@@ -99,6 +99,7 @@ class personjava
            System.out.println("Department:"+obj[i].department);
            break;
            }
+       }
            if(!found)
            {
                System.out.println("Not found");
