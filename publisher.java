@@ -75,7 +75,7 @@ class Category
    System.out.println("Type(fiction/literature):");
    String type1=s.nextLine();
    Literature obj1=new Literature(publisher_name1,agency_name1,book_name1,author1,price1,type1);
-   System.out.println("|||||||||||||||||||||||||||||||||||||||||||");
+   System.out.println("-------------------------------------------");
   
    System.out.println("Enter the details of book:");
    System.out.println("Name of publisher:");
@@ -91,9 +91,11 @@ class Category
    System.out.println("Type(fiction/literature):");
    String type2=s.nextLine();
    Fiction obj2=new Fiction(publisher_name2,agency_name2,book_name2,author2,price2,type2);
-   System.out.println("|||||||||||||||||||||||||||||||||||||||||||");
+   System.out.println("------------------------------------------");
    obj1.display1();
-   System.out.println("|||||||||||||||||||||||||||||||||||||||||||");
+   System.out.println("----------------------------------------");
    obj2.display2();
   }
 } 
+
+ 
