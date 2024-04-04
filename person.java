@@ -51,8 +51,8 @@ class personjava
        teacher[] obj=new teacher[n];
        for(i=0;i<n;i++)
        {
-           System.out.println("||||||||||||||||||||||||||||||||||||||||||||||");
-           System.out.println("enter thge details of teacher:"+(i+1));
+           System.out.println("--------------------------------------");
+           System.out.println("enter the details of teacher:"+(i+1));
            System.out.println("Person name:");
            String p_name=s.nextLine();
            System.out.println("Gender:");
@@ -86,7 +86,7 @@ class personjava
            if(obj[i].teacher_id==no)
            {
            found=true;
-           System.out.println("Person name:"+obj[i].p_name);
+           System.out.println("Person name: "+obj[i].p_name);
            System.out.println("Gender:"+obj[i].gender);
            System.out.println("Address:"+obj[i].address);
            System.out.println("Age:"+obj[i].age);
@@ -99,7 +99,6 @@ class personjava
            System.out.println("Department:"+obj[i].department);
            break;
            }
-       }
            if(!found)
            {
                System.out.println("Not found");
@@ -108,3 +107,4 @@ class personjava
        }
     }
 }
+       
